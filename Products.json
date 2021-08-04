@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "6109e7946fb8709274a2d76e"
+  },
+  "Name": "iPhone 12",
+  "Stock": "5",
+  "Status": "1",
+  "UnitPrice": "15000"
+},{
+  "_id": {
+    "$oid": "6109e7946fb8709274a2d76f"
+  },
+  "Name": "Samsung Galaxy Note 20",
+  "Stock": "1",
+  "Status": "1",
+  "UnitPrice": "12000"
+},{
+  "_id": {
+    "$oid": "6109e7946fb8709274a2d770"
+  },
+  "Name": "Huawei P40",
+  "Stock": "3",
+  "Status": "1",
+  "UnitPrice": "13000"
+}]

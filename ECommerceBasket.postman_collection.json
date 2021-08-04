@@ -1,0 +1,88 @@
+{
+	"info": {
+		"_postman_id": "09142b74-a620-4023-a34f-cab264006058",
+		"name": "ECommerceBasket",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "AddToBasket",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxMDllN2ZmNmZiODcwOTI3NGEzMWUzYyIsIm5iZiI6MTYyODA4NTQwMSwiZXhwIjoxNjI4MTcxODAxLCJpc3MiOiJlY29tbWVyY2ViYXNrZXQiLCJhdWQiOiJlY29tbWVyY2ViYXNrZXQifQ._mnZImVGL_qy4dPkafwmoLZEihaH-sH06iyQ-47gQCs",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/v1/basket/addtobasket/6109e7946fb8709274a2d770",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"v1",
+						"basket",
+						"addtobasket",
+						"6109e7946fb8709274a2d770"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "ecommerce",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "asd123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/v1/user",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"v1",
+						"user"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
